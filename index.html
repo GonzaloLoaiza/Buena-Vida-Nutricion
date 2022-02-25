@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Buenas Vida Nutrición</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+	</head>
+	<body>
+		
+		<header>
+			<div class="container">
+				<h1 class="titulo">Buenas Vida Nutrición</h1>
+				<nav>
+					<ul class="centrar">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="adicionar.html">Adicionar Paciente</a></li>
+				</ul>
+			</nav>
+			</div>
+			
+		</header>
+		
+		<div class="slide">
+			<div class="slide-inner">
+				<input class="slide-open" type="radio" id="slide-1" 
+			 	     name="slide" aria-hidden="true" hidden="" checked="checked">
+				<div class="slide-item">
+					<img src="img/imagen1.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-2" 
+			 	     name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="img/imagen2.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-3" 
+			 	     name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="img/imagen3.png">
+				</div>
+				<label for="slide-3" class="slide-control prev control-1">‹</label>
+				<label for="slide-2" class="slide-control next control-1">›</label>
+				<label for="slide-1" class="slide-control prev control-2">‹</label>
+				<label for="slide-3" class="slide-control next control-2">›</label>
+				<label for="slide-2" class="slide-control prev control-3">‹</label>
+				<label for="slide-1" class="slide-control next control-3">›</label>
+				<ol class="slide-indicador">
+					<li>
+						<label for="slide-1" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-2" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-3" class="slide-circulo">•</label>
+					</li>
+				</ol>
+			</div>
+		</div>
+
+        <script src="js/calcularimc.js"></script> 
+		<script src="js/formulario.js"></script> 
+		<script src="js/eliminar-paciente.js"></script>
+		<script src="js/filtrar.js"></script>
+		<script src="js/buscar-pacientes.js"></script>
+	</body>
+</html>
